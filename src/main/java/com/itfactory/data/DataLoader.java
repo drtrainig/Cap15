@@ -43,7 +43,7 @@ public class DataLoader {
     private Course createCourse(String[] data) {
         int id = Integer.parseInt(data[0]);
         String name = data[1];
-        double price = Double.parseDouble(data[1]);
+        double price = Double.parseDouble(data[2]);
         return new Course(id, name, price);
     }
 
